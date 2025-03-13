@@ -12,10 +12,10 @@ const Hero = () => {
           in just a few clicks.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-          <button className="font-inter text-[15px] sm:text-[17px] text-white leading-[27px] tracking-normal bg-[#0070A0] hover:bg-[#0050a0] transition-all px-6 sm:px-8 py-2">
+          <button className="font-inter text-[15px] sm:text-[17px] text-white leading-[27px] tracking-normal bg-[#0070A0] hover:bg-[#0050a0] transition-all px-6 sm:px-8 py-2 cursor-pointer">
             Book a demo
           </button>
-          <button className="font-inter text-[15px] sm:text-[17px] text-[#0070A0] hover:text-[#0045a0] transition-all leading-[27px] tracking-normal py-2">
+          <button className="font-inter text-[15px] sm:text-[17px] text-[#0070A0] hover:text-[#0045a0] transition-all leading-[27px] tracking-normal py-2 cursor-pointer">
             Learn more <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
