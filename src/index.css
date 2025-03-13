@@ -7,6 +7,7 @@
 	margin-inline: auto;
 }
 @theme {
+	--color-primary: #0070a0;
 	--font-franc: 'Fraunces', serif;
 	--font-inter: 'Inter', serif;
 }
