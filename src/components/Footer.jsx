@@ -146,4 +146,4 @@ export default Footer;
 // ? Agar branch main da bo'lsa pastagi kod yoziladi
 // ! git checkout -b your-name --- yangi branch yaratish
 
-// !! git push origin your-name
+// !! git push origin your-name --- gitga push qilishx
