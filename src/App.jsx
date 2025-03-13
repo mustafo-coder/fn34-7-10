@@ -15,7 +15,7 @@ import {
 const App = () => {
 	return (
 		<div>
-			{/* Navbar */}
+			{/* Jasurbek */}
 			<Navbar />
 			{/* Azizbek */}
 			<Hero />
