@@ -12,18 +12,18 @@ const Contact = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
-          <button className="mt-[18px] bg-[#0070A0] text-white font-inter px-8 py-2 text-center">
+          <button className="cursor-pointer transition-colors delay-100 hover:bg-[rgba(0,112,160,0.7)]  mt-[18px] bg-[#0070A0] text-white font-inter px-8 py-2 text-center">
             Book a demo
           </button>
         </div>
         <div className="flex items-center justify-between w-[30%]">
-          <div>
+          <div className="text-center">
             <i className="fa-solid fa-check text-[#626A72]"></i>
             <a href="#" className="font-inter text-sm text-[#626A72]">
               Free 30-day trial
             </a>
           </div>
-          <div>
+          <div className="text-center">
             <i className="fa-solid fa-check text-[#626A72]"></i>
             <a href="#" className="font-inter text-sm text-[#626A72]">
               No credit-card required
