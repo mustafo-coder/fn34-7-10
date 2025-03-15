@@ -6,7 +6,7 @@ import img_news from '/blog_news.png';
 const Blog = () => {
 	return (
 		<div className='bg-[#F7F9FA] font-franc'>
-			<div className='container bg-[#F7F9FA] w-full lg:max-w-[1130px] mx-auto py-14 lg:py-20 md:py-18 px-4'>
+			<div className='container bg-[#F7F9FA] w-full mx-auto py-14 lg:py-20 md:py-18'>
 				{/* Section Title */}
 				<div className='flex flex-col sm:flex-row sm:items-center sm:justify-between pb-5 md:pb-6 lg:pb-8'>
 					<h2 className='text-[#1F1F1F] text-[28px] md:text-[36px] lg:text-[42px]'>
@@ -20,9 +20,9 @@ const Blog = () => {
 				</div>
 
 				{/* Card */}
-				<div className='flex flex-wrap md:flex-nowrap justify-center gap-6'>
+				<div className='gap-6 grid max-lg:grid-cols-2 max-sm:gap-3 max-sm:grid-cols-1 grid-cols-3'>
 					{/* Card: Improvements */}
-					<div className='card bg-white w-full sm:w-1/3'>
+					<div className='card bg-white w-full'>
 						<img
 							className='w-full h-auto block'
 							src={img_improv}
@@ -45,7 +45,7 @@ const Blog = () => {
 						</div>
 					</div>
 					{/* Card: Tips & Tricks */}
-					<div className='card bg-white w-full sm:w-1/3'>
+					<div className='card bg-white w-full'>
 						<img
 							className='w-full h-auto block'
 							src={img_tips}
@@ -69,8 +69,8 @@ const Blog = () => {
 					</div>
 
 					{/* card-news */}
-					<div className='card bg-white w-[355px]'>
-						<img src={img_news} alt='blog about news' />
+					<div className='card bg-white'>
+						<img src={img_news} className='w-full' alt='blog about news' />
 						<div className='mt-6 ml-6 pb-[26px]'>
 							<p className='text-[#2C90C9] inline text-xs space-[0.4px] pt-0.5 pb-1 px-4 bg-[#E6F7FF]'>
 								News

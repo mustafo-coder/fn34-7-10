@@ -7,7 +7,7 @@ import icon4 from '../assets/tasks-icon4.svg';
 
 const Tasks = () => {
 	return (
-		<div className='tasks p-[50px]'>
+		<div className='tasks p-[50px] container'>
 			<div className='tasks-title max-w-[57%]'>
 				<h2 className='font-franc font-normal text-[42px] leading-[50.4px] tracking-[0.2px] text-gray-900'>
 					Your tasks, automated.
